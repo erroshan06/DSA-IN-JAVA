@@ -1,4 +1,4 @@
-package BASICS;
+package IF_ELSE;
 
 public class relationalOperators {
     public static void main(String[] args) {
