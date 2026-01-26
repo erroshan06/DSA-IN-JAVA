@@ -10,6 +10,7 @@ public class BuiltINJava {
         System.out.println(Math.max(3,12));
         System.out.println(Math.pow(2,3));
        // System.out.println(Math.pow(-3.123, -2.6576));
+
         System.out.println(Math.pow(0,0));
         System.out.println(Math.PI);
     }
