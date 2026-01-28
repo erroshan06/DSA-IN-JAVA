@@ -19,8 +19,11 @@ public class MAXelement {
                 max = arr[i];
             }
 
-        }System.out.print("Maximum element: "+ max);
+        }
+        System.out.println("Maximum element: "+ max);
 
+     //   System.out.println(arr[-1]); //Index -1 out of bounds for length 5
+        System.out.println(arr.length);
         sc.close();
     }
 }
