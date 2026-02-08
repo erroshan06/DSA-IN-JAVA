@@ -18,28 +18,20 @@ public class Bubblesort {
         int[] arr = {3, 45, 6, 2, 8, -9, 0};
 
 
-
-
-
         for (int i = 0; i < arr.length - 1; i++) {     // n-1 passes
-            boolean isSorted = true ;
-            for (int j = 0; j < arr.length - 1; j++) {   // to check  array is sorted or not
-
-                if (arr[j] > arr[j + 1]) {
-                    isSorted = false;
-                    break;
-                }
-            }
-             if (isSorted == true) break ;
+            boolean swap =  false ;
             for (int j = 0; j < arr.length - 1 - i; j++) {
+
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
+                     swap =  true ;
                 }
 
 
             }
+            if (swap ==  false ) break;
         }
         print(arr);
     }
