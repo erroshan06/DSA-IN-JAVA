@@ -16,7 +16,8 @@ public class Bubblesort {
     public static void main(String[] args) {
 
         int[] arr = {3, 45, 6, 2, 8, -9, 0};
-
+        System.out.print(" before  sorted : ");
+         print(arr);
 
         for (int i = 0; i < arr.length - 1; i++) {     // n-1 passes
             boolean swap =  false ;
@@ -33,6 +34,7 @@ public class Bubblesort {
             }
             if (swap ==  false ) break;
         }
+        System.out.print(" After  sorted : ");
         print(arr);
     }
 }
