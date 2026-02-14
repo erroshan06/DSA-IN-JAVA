@@ -1,4 +1,4 @@
-package ARRAY;
+//package ARRAY;
 import  java.util.Scanner;
 public class DoubletheElement {
     public static void main(String[] args) {

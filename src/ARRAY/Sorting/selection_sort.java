@@ -1,7 +1,7 @@
 package ARRAY.Sorting;
 
 public class selection_sort {
-    public static void print(int arr[]) {
+    public static void print(int[] arr) {
         for (int ele : arr)
             System.out.print(ele + " ");
         System.out.println();
@@ -9,7 +9,7 @@ public class selection_sort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {56, 67, 3, 76, 9, 02, -1};
+        int[] arr = {56, 67, 3, 76, 9, 2, -1};
          print(arr);
 
         for (int i = 0; i < arr.length; i++) {
