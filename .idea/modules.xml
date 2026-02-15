@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../JAVA/JAVA.iml" filepath="$PROJECT_DIR$/../JAVA/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binary/binary.iml" filepath="$PROJECT_DIR$/binary/binary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binary_search/binary_search.iml" filepath="$PROJECT_DIR$/binary_search/binary_search.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsa.iml" filepath="$PROJECT_DIR$/dsa.iml" />
     </modules>
   </component>
